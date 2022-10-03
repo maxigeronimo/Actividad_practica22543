@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- encabezado -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Codo a Codo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Desactivado</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- contenedor -->
+    <main>
+      <div class="container p-0">
+        <div class="card-group">
+            <!-- <div class="col-md-4 p-0"> -->
+                <div class="card mb-3">
+                    <img src="images/html.jpg" class="imghtml card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo 1</h5>
+                      <p class="card-text">Contenido de Card</p>
+                      <p class="card-text"><small class="text-muted">Ultima actualización 3 min ago</small></p>
+                    </div>
+                  </div>
+            <!-- </div> -->
+            <!-- <div class="col-md-4 p-0 "> -->
+                <div class="card mb-3">
+                    <img src="images/css.png" class="imgcss card-img-top " alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo 2</h5>
+                      <p class="card-text">Contenido de card</p>
+                      <p class="card-text"><small class="text-muted">Ultima actualización 3 min ago</small></p>
+                    </div>
+                  </div>
+            <!-- </div> -->
+            <!-- <div class="col-md-4 p-0 "> -->
+                <div class="card mb-3">
+                    <img src="images/bootstrap.png" class="imgboot card-img-top " alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo 3</h5>
+                      <p class="card-text">Contenido de card</p>
+                      <p class="card-text"><small class="text-muted">Ultima actualización 3 min ago</small></p>
+                    </div>
+                  </div>
+            <!-- </div> -->
+            
+        </div>
+        
+        <form action="images/index.html" method="post">
+          <div class="row">
+            <div class="col mb-3">
+                <label for="email" class="mb-1">Email</label>
+                <input type="email" name="email" id="email" class="form-control rounded-1" placeholder="Ingrese su email" required>
+                <input type="email" readonly class="form-control-plaintext p-0" id="floatingEmptyPlaintextInput" placeholder="Nunca compartas su email">
+              </div>
+          </div>
+          <div class="row">
+            <div class="col mb-3">
+              <label for="pass" class="mb-1">Contraseña</label>
+              <input type="password" name="pass" id="pass" class="form-control rounded-1" placeholder="Ingrese su contraseña" required>
+            </div>
+          </div>
+          
+          <div class=" form-check mb-3">
+            <input class="form-check-input " type="checkbox" value="" id="Verificar" checked>
+            <label class="form-check-label " for="flexCheckChecked">
+              Verificar
+            </label>
+          </div>
+          
+          <div class="row">
+            <div class="mb-3">
+              <input type="submit" value="Enviar" class="btn btn-success">
+            </div>
+          </div>
+        </form>
+      </div>
+        
+    </main>
+
+    <!-- pie de pagina -->
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
